@@ -1,6 +1,6 @@
 # Joino — AI Event Registration & Onboarding Platform
 
-**Customized by Sandeep Patra** · React · Tailwind CSS · Node.js · Express · MongoDB · QRCode · optional Voiceflow
+** Sandeep Patra** · React · Tailwind CSS · Node.js · Express · MongoDB · QRCode · optional Voiceflow
 
 Joino is a responsive event-registration demo focused on a clear selection-to-ticket flow. It presents sample technology events, validates registrant details, stores submissions in MongoDB, creates a unique QR ticket, and can send an email/PDF confirmation when SMTP-style credentials are configured. A built-in FAQ helper works without third-party credentials; an optional Voiceflow web chat can be loaded with a project ID.
 
