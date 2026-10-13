@@ -92,8 +92,6 @@ The tests cover input validation. They do not require a live MongoDB connection 
 
 Sandeep Patra has a B.Tech background in Electronics and Telecommunication Engineering from Parala Maharaja Engineering College, interested in full-stack development and AI-powered applications.
 
-## Upstream acknowledgement and security note
-
-This version was adapted from the supplied public project **[ErAdilrasheed/EventRegistration](https://github.com/ErAdilrasheed/EventRegistration)**. The archive contained a tracked `.env` with MongoDB and email credentials; that file has been removed from this customized copy and is replaced by `server/.env.example`. Because those credentials were present in an uploaded/tracked file, rotate/revoke the MongoDB credential and email app password immediately if they are still active. The shipped project no longer includes their values or uses the old hosted endpoints/banner.
+Because those credentials were present in an uploaded/tracked file, rotate/revoke the MongoDB credential and email app password immediately if they are still active. The shipped project no longer includes their values or uses the old hosted endpoints/banner.
 
 The supplied archive did not include a project-level `LICENSE` file. Check the upstream repository's current license/permission before publishing a derivative repository, and keep all required notices. The visual rework, validations, QR ticket response, optional support widget and configuration changes in this customized copy are separate modifications—not a claim that all upstream code was written from scratch.
