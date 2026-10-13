@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test utils/*.test.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Sandeep Patra",
+  "license": "ISC",
+  "description": "Joino event registration API with MongoDB persistence and QR ticket generation",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.1",
+    "puppeteer": "^24.6.1",
+    "qrcode": "^1.5.4"
+  }
+}
